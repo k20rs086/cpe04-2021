@@ -160,6 +160,8 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+
+        btnCClick(null);
         
     }
 
@@ -181,6 +183,10 @@
     function btnAClick(e){
         active =true;
         startTime=new Date();
+
+        $("btnA").prop("disabled",true);
+
+        $("btnA").prop("disabled",false);
         
     }
 
@@ -188,6 +194,9 @@
     function btnBClick(e){
         active=false;
         
+        $("btnB").prop("disabled",true);
+
+        $("btnA").prop("disabled",false);
     }
 
     // ButtonCがクリックされた時の処理
