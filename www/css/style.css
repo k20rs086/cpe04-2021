@@ -10,6 +10,7 @@ button{
 #btnA{
     background-color: yellow;
     color:green;
+    font-weight: bold;
 }
 #remain{
   font-weight: bold;
